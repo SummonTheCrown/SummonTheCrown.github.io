@@ -21,9 +21,12 @@ body {
   font-size: 20px;
 }
 
-#banner {
-  background-image: url(https://github.com/SummonTheCrown/SummonTheCrown.github.io/blob/main/color_logo_transparent.png?raw=true);
-  width: 100%;
+#toplogo {
+  background-color: #4b4949;
   height: 300px;
-  background-size: cover;
+  width: 100%;
+  position: absoloute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
