@@ -24,8 +24,9 @@ body {
 #toplogo {
   background-color: #4b4949;
   height: 300px;
-  width: 100%;
+  width: 50%;
   position: absoloute;
+  box-align: center;
   top: 0;
   left: 0;
   z-index: -1;
