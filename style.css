@@ -39,6 +39,8 @@ p {
 
 #itlflag {
   position: fixed;
+  width: 100%;
+  display: block;
 }
 
 #italianfood {
@@ -48,5 +50,9 @@ p {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  padding-top: 35px;
+}
+
+#italian {
+  border: solid;
+  border-color: #7157db;
 }
