@@ -1,88 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>HOME</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <script>
-    document.addEventListener('contextmenu', function(event) {
-      event.preventDefault();
-    });
-  </script>
-</head>
+<html>
 
-<body>
-  <!-- Header with Global Navigation -->
-  <header style="display: flex; align-items: center; justify-content: space-between;">
-    <div id="menu" style="order: -1;">
-      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services & Pricing</a></li>
-        <li><a href="quote.html">Request a Quote</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="https://maps.google.com?q=2101+Henderson+Park+Ln+SE,+Olympia,+WA+98501" target="_blank">Directions</a></li>
-      </ul>
+  <head>
+    <meta charset="utf-8">
+    <title>Savory</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <header>
+        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+      </header>
+
+      <main>
+        <div class="recipe a">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
+          <h2>CHOCOLATE MOUSSE</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">20 mins</p>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        <div class="recipe b">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-2.png" />
+          <h2>SMOKED LAMB WITH RICE</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">120 mins</p>
+          <p class="description">
+            Want to feel like your favorite relative came over and made you dinner? This comfort meal of smoked lamb and rice will quickly become a weekend favorite!
+          </p>
+        </div>
+        <div class="recipe c">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-5.png" />
+          <h2>GOAT CHEESE SALAD</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">25 mins</p>
+          <p class="description">
+            In addition to the full flavor of goat cheese, this salad includes kale, avocado, and farro to balance it out.</p>
+        </div>
+        <div class="recipe d">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-4.png" />
+          <h2>CHICKEN SANDWICH</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">45 mins</p>
+          <p class="description">
+            We've packed a lot into this one - shredded cabbage, carmalized onions, deep-fried chicken, chipotle mayo, half-sour pickles, and a toasted sesame bun will leave you thoroughly satisfied!</p>
+        </div>
+        <div class="recipe e">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-3.png" />
+          <h2>SWEET CHURROS</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">90 mins</p>
+          <p class="description">
+            Making this classic summer treat at home will remind you of a childhood spent in the park.</p>
+        </div>
+        <div class="recipe f">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-6.png" />
+          <h2>BERRY PARFAIT</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">10 mins</p>
+          <p class="description">
+            This low-calorie, vitamin-packed parfait is great for breakfast, dessert, or post-workout!</p>
+        </div>
+      </main>
+
+      <footer>
+        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+      </footer>
+
     </div>
-    <h1>CONSIGLIERE AUTO</h1>
-    <img src="images/logospin.gif" alt="Shop Logo" class="header-logo" style="margin-left: auto;">
-  </header>
+  </body>
 
-  <!-- Main Content -->
-  <main>
-    <h2>WELCOME TO CONSIGLIERE AUTO</h2>
-    <p style="font-size: x-large;">At Consigliere Auto, our mission is to provide exceptional automotive consulting and advisory services, ensuring every client experience’s unparalleled expertise, integrity, and personalized solutions. We strive to enhance the value, efficiency, and enjoyment of your automotive journey. Welcome to your last stop for automotive excellence.</p>
-    <p>
-      <img src="images/homepage.gif" alt="Home GIF" style="overflow: hidden; border: none;">
-    </p> 
-  </main>
-
-  <!-- Footer with Navigation -->
-  <footer>    
-    <br>
-    <div class="container"> 
-    </div>        
-    <div class="card-container">
-      <div class="card">
-        <div class="container">
-          <h3><strong>COMPETITIVE PRICING</strong></h3>
-          <p>We will match or beat any competitors prices</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="container">
-          <h3><strong>CURRENT SALES</strong></h3>
-          <p>30% off Oil Changes this month!</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="container">
-          <h3><strong>SERVICE GUARANTEE</strong></h3>
-          <p>You won't be charged unless the service is complete and to industry standard.</p>
-        </div>
-      </div>
-    </div>
-    <form id="searchform">
-      <label for="searchbox">Need More?</label>
-      <input type="text" id="searchbox" name="search" placeholder="Find Services" title="Search">
-      <button type="submit">Search</button>
-    </form>
-
-    <div id="search-results"></div>
-    <nav>
-      <p>
-        <a href="index.html">Home</a> |
-        <a href="services.html">Services & Pricing</a> |
-        <a href="quote.html">Request a Quote</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="about.html">About</a> |
-        <a href="https://maps.google.com?q=2101+Henderson+Park+Ln+SE,+Olympia,+WA+98501" target="_blank">Directions</a>
-      </p>
-    </nav>
-    <p class="marquee"><span>Come in for a free estimate!</span></p>
-    </footer>
-  <script src="script.js"></script>
-</body>
 </html>
