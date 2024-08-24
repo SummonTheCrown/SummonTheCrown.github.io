@@ -1,37 +1,88 @@
-  <!DOCTYPE html>
-  <html lang="en ">
-  <html>
-  <head>
-    <title>Flavor By Design</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HOME</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script>
+    document.addEventListener('contextmenu', function(event) {
+      event.preventDefault();
+    });
+  </script>
+</head>
 
-  <body>
-      <div class="container">
-          <div id="banner"></div>
-      </div><br>
-      <div class="container">
-          <img id="toplogo" src=https://github.com/SummonTheCrown/SummonTheCrown.github.io/blob/main/color_logo_transparent.png?raw=true) /><br>
-          <div id="header">Welcome to my recipe collection!</div>
-          <p>Welcome to my collection of cherished recipes! Over the years, I've gathered these recipes, some of which I've lovingly tweaked, while others remain exactly as I discovered them. This collection is a labor of love, and I'm excited to share it with you. Soon, you'll have the opportunity to submit your own favorite recipes to be part of this growing community. My goal is to keep this collection free and accessible to everyone, so we can all enjoy the joy of cooking together!</p><br>
-      <div class="container">
-          <div id="italian"></div>
-            <a href="italian.html">
-              <a href="italian.html"><img id="itlflag" src="https://github.com/SummonTheCrown/SummonTheCrown.github.io/blob/main/italianflag.jpg?raw=true" alt="Italian Flag" width="100%" height="100"></a>
-            </a>
-          <a href="italian.html"> <h2 id="italianfood">Italian Recipes</h2></a><br>
-        <br>
-        <br>
-        <p>Italian cooking has a rich and diverse history that reflects the country's regional variety, cultural exchanges, and the influence of historical events. The roots of Italian cuisine can be traced back to ancient Rome, where the diet was based on cereals, legumes, fruits, vegetables, cheese, and meats. Roman cooking was influenced by the Greek colonies in southern Italy, and ingredients like olives, grapes, and figs became staples.</p>
+<body>
+  <!-- Header with Global Navigation -->
+  <header style="display: flex; align-items: center; justify-content: space-between;">
+    <div id="menu" style="order: -1;">
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services & Pricing</a></li>
+        <li><a href="quote.html">Request a Quote</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://maps.google.com?q=2101+Henderson+Park+Ln+SE,+Olympia,+WA+98501" target="_blank">Directions</a></li>
+      </ul>
+    </div>
+    <h1>CONSIGLIERE AUTO</h1>
+    <img src="images/logospin.gif" alt="Shop Logo" class="header-logo" style="margin-left: auto;">
+  </header>
 
-        <p>During the Middle Ages, Italian cuisine was further shaped by the introduction of new ingredients brought by traders and explorers. The Arabs introduced rice, spinach, and citrus fruits to Sicily, while the Venetians brought spices from the East. The Renaissance period marked a time of culinary sophistication, especially in the courts of Florence and Rome, where lavish banquets featured intricate dishes and elaborate presentations.</p>
+  <!-- Main Content -->
+  <main>
+    <h2>WELCOME TO CONSIGLIERE AUTO</h2>
+    <p style="font-size: x-large;">At Consigliere Auto, our mission is to provide exceptional automotive consulting and advisory services, ensuring every client experience’s unparalleled expertise, integrity, and personalized solutions. We strive to enhance the value, efficiency, and enjoyment of your automotive journey. Welcome to your last stop for automotive excellence.</p>
+    <p>
+      <img src="images/homepage.gif" alt="Home GIF" style="overflow: hidden; border: none;">
+    </p> 
+  </main>
 
-        <p>The unification of Italy in the 19th century helped to consolidate regional cuisines into what is now known as Italian cuisine. Each region of Italy developed its own distinct culinary traditions based on local ingredients and cultural influences. For example, the north is known for its use of butter, rice, and polenta, while the south is famous for its tomato-based dishes, olive oil, and pasta.</p>
-
-        <p>Italian-inspired recipes have become beloved around the world, adapted to local tastes while maintaining the essence of Italian cooking. Classic dishes like pizza, pasta, and risotto have become global favorites. In the United States, Italian immigrants introduced recipes like spaghetti and meatballs, which evolved into a staple of Italian-American cuisine.</p>
-
-        <p>Today, Italian cooking is celebrated for its emphasis on fresh, high-quality ingredients, simplicity, and the importance of family and tradition in the culinary experience. Whether it's a traditional Italian dish or an Italian-inspired recipe, the influence of Italy's rich culinary history is evident.</p>
+  <!-- Footer with Navigation -->
+  <footer>    
+    <br>
+    <div class="container"> 
+    </div>        
+    <div class="card-container">
+      <div class="card">
+        <div class="container">
+          <h3><strong>COMPETITIVE PRICING</strong></h3>
+          <p>We will match or beat any competitors prices</p>
+        </div>
       </div>
-  </body>
+      <div class="card">
+        <div class="container">
+          <h3><strong>CURRENT SALES</strong></h3>
+          <p>30% off Oil Changes this month!</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="container">
+          <h3><strong>SERVICE GUARANTEE</strong></h3>
+          <p>You won't be charged unless the service is complete and to industry standard.</p>
+        </div>
+      </div>
+    </div>
+    <form id="searchform">
+      <label for="searchbox">Need More?</label>
+      <input type="text" id="searchbox" name="search" placeholder="Find Services" title="Search">
+      <button type="submit">Search</button>
+    </form>
 
-  </html>
+    <div id="search-results"></div>
+    <nav>
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="services.html">Services & Pricing</a> |
+        <a href="quote.html">Request a Quote</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About</a> |
+        <a href="https://maps.google.com?q=2101+Henderson+Park+Ln+SE,+Olympia,+WA+98501" target="_blank">Directions</a>
+      </p>
+    </nav>
+    <p class="marquee"><span>Come in for a free estimate!</span></p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
