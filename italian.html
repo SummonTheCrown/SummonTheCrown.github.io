@@ -1,253 +1,89 @@
+<!DOCTYPE html>
+<html>
 
-header, footer {
-  background-color: #ffa500;
-  text-align: center;
-  min-width: 500px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-size: flex;
-}
+  <head>
+    <meta charset="utf-8">
+    <title>FBD-Italy</title>
+    <link rel="stylesheet" type="text/css" href="styleitl.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  </head>
 
-main {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-top: 20px;
-  justify-items: center;
-  justify-content: center;
-  align-items: stretch;
-  height: auto; /* Set height to auto */
-  align-content: center;
-}
+  <body>
 
-main li {
-  list-style: none;
-  display: inline-block;
-  height: auto;
-}
+    <div class="container">
 
-h2 {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #ffa500;
-  padding: 10px;
-  margin: 0; /* Set margin to 0 */
-  box-sizing: border-box; /* To include padding within the box */
-}
+      <header>
+        <div class="header-nav">
+          <img src="https://github.com/SummonTheCrown/SummonTheCrown.github.io/blob/main/italianflag.jpg?raw=true" class="logo" alt="Logo">
+          <p>FLAVOR BY DESIGN</p>
+      </header>
 
-img {
-  width: 100%;
-  height: auto;
-}
+      <main>
+        <div class="recipe a">
+          <img src="https://droiddoc.hemera.feralhosting.com/WebFolio/Pizza.jpg" />
+          <h2>Homemade Pizza</h2>
+          <img src="https://droiddoc.hemera.feralhosting.com/WebFolio/Pizza.jpg" class="time" />
+          <p class="mins">20 mins</p>
+          <p class="description">
+            A simple homemade pizza recipe the whole family will enjoy!</p>
+        </div>
+        <div class="recipe b">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-2.png" />
+          <h2>SMOKED LAMB WITH RICE</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">120 mins</p>
+          <p class="description">
+            Want to feel like your favorite relative came over and made you dinner? This comfort meal of smoked lamb and rice will quickly become a weekend favorite!
+          </p>
+        </div>
+        <div class="recipe c">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-5.png" />
+          <h2>GOAT CHEESE SALAD</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">25 mins</p>
+          <p class="description">
+            In addition to the full flavor of goat cheese, this salad includes kale, avocado, and farro to balance it out.</p>
+        </div>
+        <div class="recipe d">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-4.png" />
+          <h2>CHICKEN SANDWICH</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">45 mins</p>
+          <p class="description">
+            We've packed a lot into this one - shredded cabbage, carmalized onions, deep-fried chicken, chipotle mayo, half-sour pickles, and a toasted sesame bun will leave you thoroughly satisfied!</p>
+        </div>
+        <div class="recipe e">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-3.png" />
+          <h2>SWEET CHURROS</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">90 mins</p>
+          <p class="description">
+            Making this classic summer treat at home will remind you of a childhood spent in the park.</p>
+        </div>
+        <div class="recipe f">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-6.png" />
+          <h2>BERRY PARFAIT</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">10 mins</p>
+          <p class="description">
+            This low-calorie, vitamin-packed parfait is great for breakfast, dessert, or post-workout!</p>
+        </div>
+      </main>
 
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-  width: 100%; /* Make recipe container flexible */
-  max-width: 250px; /* Optional limit on width */
-  box-sizing: border-box; /* To include padding and border within total width */
-  overflow: hidden; /* Prevent content from overflowing */
-}
+      <footer>         
+      <div class="container">
+        <ul class="PrimaryNav with-indicator">
+        <li class="Nav-item"><a href="#">Home</a></li>
+        <li class="Nav-item"><a href="italian.html">Italian</a></li>
+        <li class="Nav-item is-active"><a href="mexican.html">Mexican</a></li>
+        <li class="Nav-item"><a href="indian.html">Indian</a></li>
+        <li class="Nav-item"><a href="american.html">US BBQ</a></li>
+      </ul>
+    </div>
+      </footer>
 
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
+    </div>
+  </body>
 
-.mins {
-  display: inline-block;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
-  margin: 0; /* Set margin to 0 */
-}
-
-.description {
-  font-family: Work Sans;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.29;
-  letter-spacing: 0.1px;
-  text-align: left;
-  color: #4a4a4a;
-  padding: 10px;
-  margin: 0; /* Set margin to 0 */
-  border-top: 1px solid #4a4a4a;
-  box-sizing: border-box; /* To include padding within the box */
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
-
-.container {
-  min-width: 500px;
-  margin: auto;
-}
-
-/* NAV */ 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
-.PrimaryNav {
-  list-style: none;
-  margin: 50px auto; /* This already centers the nav */
-  max-width: 720px;
-  padding: 0;
-  width: 100%;
-  display: flex; /* Ensure it uses flexbox for centering */
-  justify-content: center; /* Center nav items */
-}
-
-.Nav-item {
-  background: #fff;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  text-align: center;  
-}
-.Nav-item:first-child {
-  border-radius: 3px 0 0 3px;
-}
-.Nav-item:last-child {
-  border-radius: 0 3px 3px 0;
-}
-.Nav-item.is-active a {
-  color: #e82d00;
-}
-.Nav-item a {
-  color: #121212;
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-decoration: none;
-}
-.Nav-item a:hover {
-  color: #e82d00;
-}
-
-.with-indicator {
-  position: relative;
-  z-index: 0;
-}
-.with-indicator .Nav-item:last-child:before, .with-indicator .Nav-item:last-child:after {
-  content: "";
-  display: block;
-  position: absolute;
-  pointer-events: none;
-  transition: left 1.3s ease;
-}
-.with-indicator .Nav-item:last-child:before {
-  border: 6px solid transparent;
-  border-top-color: #e82d00;
-  width: 0;
-  height: 0;
-  top: 0;
-  left: 10%;
-  margin-left: -3px;
-}
-.with-indicator .Nav-item:last-child:after {
-  background: #e82d00;
-  top: -6px;
-  bottom: -6px;
-  left: 0;
-  width: 20%;
-  z-index: -1;
-}
-.with-indicator .Nav-item:nth-child(1).is-active ~ .Nav-item:last-child:after {
-  left: 0%;
-}
-.with-indicator .Nav-item:nth-child(1).is-active ~ .Nav-item:last-child:before {
-  left: 10%;
-}
-.with-indicator .Nav-item:nth-child(2).is-active ~ .Nav-item:last-child:after {
-  left: 20%;
-}
-.with-indicator .Nav-item:nth-child(2).is-active ~ .Nav-item:last-child:before {
-  left: 30%;
-}
-.with-indicator .Nav-item:nth-child(3).is-active ~ .Nav-item:last-child:after {
-  left: 40%;
-}
-.with-indicator .Nav-item:nth-child(3).is-active ~ .Nav-item:last-child:before {
-  left: 50%;
-}
-.with-indicator .Nav-item:nth-child(4).is-active ~ .Nav-item:last-child:after {
-  left: 60%;
-}
-.with-indicator .Nav-item:nth-child(4).is-active ~ .Nav-item:last-child:before {
-  left: 70%;
-}
-.with-indicator .Nav-item:nth-child(1):hover ~ .Nav-item:last-child:after {
-  left: 0% !important;
-}
-.with-indicator .Nav-item:nth-child(1):hover ~ .Nav-item:last-child:before {
-  left: 10% !important;
-}
-.with-indicator .Nav-item:nth-child(2):hover ~ .Nav-item:last-child:after {
-  left: 20% !important;
-}
-.with-indicator .Nav-item:nth-child(2):hover ~ .Nav-item:last-child:before {
-  left: 30% !important;
-}
-.with-indicator .Nav-item:nth-child(3):hover ~ .Nav-item:last-child:after {
-  left: 40% !important;
-}
-.with-indicator .Nav-item:nth-child(3):hover ~ .Nav-item:last-child:before {
-  left: 50% !important;
-}
-.with-indicator .Nav-item:nth-child(4):hover ~ .Nav-item:last-child:after {
-  left: 60% !important;
-}
-.with-indicator .Nav-item:nth-child(4):hover ~ .Nav-item:last-child:before {
-  left: 70% !important;
-}
-.with-indicator .Nav-item:last-child:hover:before, .with-indicator .Nav-item:last-child.is-active:before {
-  left: 90% !important;
-}
-.with-indicator .Nav-item:last-child:hover:after, .with-indicator .Nav-item:last-child.is-active:after {
-  left: 80% !important;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-.PrimaryNav:before,
-.PrimaryNav:after {
-  content: " ";
-  display: table;
-}
-
-.PrimaryNav:after {
-  clear: both;
-}
-
-html {
-  background-color: #2d2424;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-}
-
-.toggle {
-  color: #fff;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-footer {
-  margin-top: 44px;
-}
+</html>
