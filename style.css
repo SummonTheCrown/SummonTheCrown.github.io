@@ -96,6 +96,16 @@ h2 {
   margin-bottom: 0;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS rules for desktop devices */
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS rules for tablet devices */
+}
+@media (max-width: 480px) {
+    /* CSS rules for mobile devices */
+}
+
 /*Banner Section*/
 .banner {
   background-color: #333;
