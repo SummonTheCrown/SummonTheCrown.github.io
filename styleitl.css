@@ -9,6 +9,10 @@ header, footer {
   font-size: flex;
 }
 
+#headerlogo {
+  display: center;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
