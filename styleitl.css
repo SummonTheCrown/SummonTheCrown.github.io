@@ -11,8 +11,8 @@ header, footer {
 
 .header-logo {
   background-image: itlflg2.jpg;
-  width: 5em;
-  height: 2em;
+  width: 100%;
+  height: auto;
 }
 
 main {
